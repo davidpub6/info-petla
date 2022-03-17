@@ -1,0 +1,185 @@
+<html>
+	<head>
+		<META HTTP-EQUIV="content-type" CONTENT="text/html" CHARSET="utf-8">
+	</head>
+	<body>
+<h2> 1) co to jest programowanie </h2> <br>
+
+<p> Programowanie to proces składający się z etapów: <br>
+	a) tworzenia programu, <br>
+	b) testowanie programu. <br> </p> <br>
+
+	
+<h2> 2) omowic 2 reguly stosowane w jezykach programowania </h2> <br>
+
+<p> a)Reguły syntaktyczne -> reguły składni wyrażeń i funkcji użytych w programie, <br>
+	b)Reguły semantyczne -> semantyka języka programowania definiuje precyzyjnie znaczenie <br>
+	poszczególnych symboli (instrukcje, operatory itp.) oraz ich funkcję w programie. <br> </p> <br>
+
+	
+<h2> 3) omowic 2 definicje algorytmu </h2> <br>
+
+<p> Definicja 1. <br>
+	Algorytm -> jest to pewien ciąg czynności, który prowadzi do rozwiązania danego problemu <br>
+	w skończonej ilości kroków. <br></p>
+
+<p> Definicja 2. <br>
+	Algorytm -> to jednoznaczny przepis, opisujący krok po kroku sposób postępowania w celu <br>
+	rozwiązania pewnego problemu lub sposobu osiągnięcia jakiegoś celu. <br>
+	Ilość kroków algorytmu zależy od tego, jak złożony jest problem, którego on dotyczy. Zawsze <br>
+	jednak liczba tych kroków będzie liczbą skończoną. <br> </p> <br>
+
+
+<h2> 4) sekcje charakterytyczne poprawnego algorytmu </h2> <br>
+
+<p> Cechy charakterystyczne poprawnego algorytmu:
+	1. Poprawność <br>
+	2. Jednoznaczność <br>
+	3. Szczegółowość <br>
+	4. Uniwersalność <br>
+	5. Skończoność <br>
+	6. Efektywność <br> </p> <br>
+
+
+<h2> 5) etapy konstruowania algorytmu </h2> <br>
+
+<p> Etapy konstruowania algorytmu(programu): <br>
+	1. Sformułowanie zadania. <br>
+	2. Określenie danych wejściowych. <br>
+	3. Określenie wyniku oraz sposobu jego prezentacji. <br>
+	4. Ustalenie metody wykonania zadania. <br>
+	5. Przy użyciu wybranej metody następuje zapisanie algorytmu. <br>
+	6. Dokonujemy analizy poprawności rozwiązania. <br>
+	7. Testowanie rozwiązania dla różnych danych. <br>
+	8. Ocena skuteczności tegoż algorytmu. <br> </p> <br>
+
+	
+<h2> 6) wymienic oraz omowic sposoby przedstawiania algorytmow ( do schematow mozna stosowac zrzut ekranu) </h2> <br>
+
+Różne sposoby przedstawiania algorytmów <br><br>
+<p> a)opis słowny <br>
+	Jest na ogół pierwszym, mało ścisłym opisem sposobem rozwiązania problemu. Rozpoczyna <br>
+	się często dyskusją, w jaki sposób można rozwiązać postawione zadanie. Dyskusja służy do <br>
+	rozważań nad sposobem i technikami przydatnymi w rozwiązania problemu. <br>
+	np. Opis słowny do algorytmu opisującego funkcję modułu (wartość bezwzględną). <br>
+	Dla wartości dodatnich argumentu x funkcja przyjmuje wartość x, dla wartości <br>
+	argumentu x funkcja przyjmuje wartość –x.</p> <br> <br>
+	
+<p> b)schemat  </p> <br> <br>
+
+<p> c)lista kroków <br> <br>
+Poszczególne kroki zawierają opis operacji, które mają być wykonane prze algorytm. Mogą w <br>
+nich również wystąpić polecenia związane ze zmianą kolejności wykonywanych kroków. <br>
+Kolejność kroków jest wykonywana w kolejności ich opisu z wyjątkiem sytuacji gdy jedno z <br>
+poleceń w kroku jest przejściem do kroku o podanym numerze. Budowa opisu algorytmu w <br>
+postaci listy kroków jest następujący: <br>
+- tytuł algorytmu <br>
+- specyfikacja problemu <br>
+- lista kroków <br>
+- komentarze ujęte w nawiasy klamrowe {komentarz} <br>
+uwaga: Krok 0 może być opuszczony <br>
+<img src="srcen.png"> <br>
+Algorytm obliczania wartości funkcji SGN(x) <br>
+Dane: Dowolna liczba rzeczywista x. <br>
+Wynik: Wartość funkcji <br>
+Krok 0. <br>
+Wczytaj wartość danej x <br>
+Krok 1. <br>
+Jeśli x>0, to f(x)=1. Zakończ algorytm. <br>
+Krok 2. <br>
+{W tym przypadku x&#60;= 0.} Jeśli x=0, to f(x)=0 . Zakończ algorytm. <br>
+Krok 3. <br>
+{W tym przypadku x&#60; 0.} Mamy f(x)=–1 . Zakończ algorytm. &#60;/p> <br> <br>
+
+d)drzewo algorytmu <br>
+Nazywany jest również drzewem obliczeń. Każde dwie drogi obliczeń mogą mieć tylko <br>
+początkowe fragmenty wspólne, ale po rozejściu już się nie spotkają. <br>
+np. Drzewo algorytmu dla funkcji SGN(x). <br>
+<img src="scern.png"> <br> <br>
+
+e)drzewo wyrażeń <br>
+Stosowane do obliczeń wyrażeń arytmetycznych. <br>
+np. Wyrażenie (a+sin(x))*b/(a–b) <br>
+<img src="srecn.png"> <br> <br>
+
+f)program w języku programowania np. C++, Pascal <br> <br>
+
+g)pseudojęzyk <br>
+PROGRAM Wycieczka; <br>
+ZMIENNE punkty:naturalne; <br>
+koszty, dofinansowanie:rzeczywiste; <br>
+ZACZNIJ; <br>
+WPROWADŹ(PUNKTY,KOSZTY); <br>
+JEŚLI punkty >=100 i punkty &#60;= TO dofinansowanie :=1/3*koszty+0.2*koszty <br>
+W PRZECIWNYM WYPADKU <br>
+dofinansowanie:=0.2*koszty; <br>
+WYPROWADŹ('Dofinansowanie wynosi:'dofinansowanie); <br>
+ZAKOŃCZ. <br>
+
+<h2> 7) podac 4 elementy specyfikacji problemu </h2> <br>
+
+Specyfikacja problemu  <br>
+Jest to dokładny opis problemu, który chcemy rozwiązać.  <br>
+Specyfikacja składa się z: <br>
+- danych wejściowych, <br>
+- dane wyjściowe oraz warunki jakie muszą spełniać (czyli związek pomiędzy danymi a  <br>
+wynikami). <br>
+- warunki jakie muszą spełniać dane wejściowe <br>
+- rysunki ( jeśli są konieczne), wzory obliczeniowe <br> <br>
+
+<h2> 8) symbole stosowane w schematach blokowych ( tabela) -moze byc jako wykonana zrzut ekranu (odpowiednio pocieta) </h2> <br>
+
+<img src="tab1.png" alt="Tabela1"> <br>
+<img src="tab2.png" alt="Tabela2"> <br> <br>
+
+<h2> 9) wymienic oraz omowic reguly stosowane podczas rysowania schematow blokowych </h2> <br>
+
+Reguły rysowania schematów blokowych <br> <br>
+I. Po zbudowaniu schematu blokowego nie powinno być takich strzałek, które z nikąd nie  <br>
+wychodzą, lub do nikąd nie dochodzą. <br> <br>
+II. Każdy schemat blokowy musi mieć tylko jeden element startowy oraz co najmniej jeden  <br>
+element końca algorytmu. <br> <br>
+III. Element łączący(strzałki łączące) powinien być rysowany w poziomie i pionie, załamania  <br>
+pod kątem prostym. <br> <br>
+
+
+<h2> 10) wymienic omowic podzial algorytmow </h2> <br>
+
+Podział algorytmów. <br> <br>
+Definicja algorytmu liniowego <br>
+Algorytmem liniowym nazywamy taki algorytm, który ma postać listy kroków  <br>
+wykonywanych zgodnie z ich kolejnością. <br>
+Algorytmy liniowe są zapisem obliczeń, które mają postać ciągu operacji rachunkowych  <br>
+wykonywanych bez sprawdzania jakichkolwiek warunków. <br> <br>
+Algorytm z warunkami (rozgałęzieniami) <br>
+Ten typ algorytmu musi mieć bloki decyzyjne czyli bloki sprawdzania warunków. <br> <br>
+Algorytm numeryczne <br>
+Algorytmy, które wykonują działania matematyczne na danych liczbowych, nazywamy  <br>
+algorytmami numerycznymi. <br> <br>
+Algorytm typu dziel i zwyciężaj <br>
+Dzielimy problem na kilka mniejszych, a te znowu dzielimy, aż ich rozwiązania staną się  <br>
+oczywiste, <br> <br>
+Algorytmy iteracyjne <br>
+Iteracja jest to zapętlenie algorytmu, czyli wykonywania danych działań, dopóki warunek  <br>
+iteracji nie zostanie spełniony. Jest ona podstawą wszystkich choć troszkę bardziej złożonych  <br>
+algorytmów. Zazwyczaj ma ona składnię wykonuj "jakaś czynność" dopóki "jakieś wyrażenie  <br>
+logiczne". <br> <br>
+Algorytmy rekurencyjne <br>
+Rekurencje wykorzystuje się do rozwiązywania problemów gdzie powtarza się czynność aby  <br>
+do niego dojść. Swoim działaniem przypomina iteracje. Jednak w tym przypadku funkcja <br> 
+sama siebie wywołuje, dopóki nie otrzyma rozwiązania, natomiast tam mieliśmy  <br>
+powtórzenie pewnej czynności określoną ilość razy. <br> <br>
+
+<h2> 11) wymienic i omowic zlozonosci stosowane podczas oceny algorytmow </h2> <br>
+
+Złożoność algorytmu- ilość zasobów potrzebnych do poprawnego działania danego  <br>
+algorytmu <br> <br>
+Złożoności obliczeniowa-Algorytm wykonujący najmniejszą ilość operacji podstawowych w  <br>
+celu rozwiązania problemu. <br> <br>
+Złożoność czasowa- Określa ilość operacji podstawowych potrzebnych do wykonania  <br>
+algorytmu o danej wielkości wejściowej. <br> <br>
+Złożoność pamięciowa- Określa ilość przestrzeni pamięci wirtualnej potrzebnej do  <br>
+wykonania algorytmu z określonym zestawem danych wejściowych. <br>
+
+	</body>
+</html>
